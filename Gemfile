@@ -99,7 +99,7 @@ end
 gem "state_machine"
 
 # Issue tags
-gem "acts-as-taggable-on"
+gem "acts-as-taggable-on", git: 'https://github.com/jacobvosmaer/acts-as-taggable-on.git', ref: '2_4_1_db_connection_fix'
 
 # Background jobs
 gem 'slim'
